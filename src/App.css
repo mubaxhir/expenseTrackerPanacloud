@@ -1,0 +1,61 @@
+.App{
+  background-color: #efefef;
+  margin: 0;
+}
+.App__centered {
+  text-align: center;
+  max-width: 300px;
+  min-height: 450px;
+  margin: 0 auto;
+  /* box-shadow: 0 0 10px; */
+  padding: 1rem;
+}
+
+.balance__container{
+  text-align: -webkit-left;
+}
+.track{
+  display: flex;
+  justify-content: space-around;
+  background-color: white;
+  box-shadow: 0 0 3px;
+}
+
+/* .track__income{
+  border-right: 1px solid gray;
+} */
+
+.line{
+    width: 1px;
+    background-color: lightgrey;
+}
+h4{
+  text-align: left;
+  margin-bottom: 5px;
+}
+h1{
+  margin-bottom: 7px;
+  margin-top: 10px;
+}
+label{
+  display: grid;
+  text-align: left;
+}
+
+.transactionForm__submistion{
+  background-color: rgb(153, 86, 167);
+  border: 0;
+  width: 100%;
+  padding: 10px;
+  color: white;
+}
+*{
+  font-family: sans-serif;
+}
+
+.income{
+  color: lightgreen;
+}
+.expense{
+  color: red;
+}
